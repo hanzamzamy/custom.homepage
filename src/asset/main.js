@@ -39,7 +39,8 @@ function inputchecker() {
 
 let searchbutton = document.getElementById('sbutton');
 
-searchinput.addEventListener('keyup', searchKeyup && inputchecker);
+searchinput.addEventListener('keyup', searchKeyup);
+searchinput.addEventListener('keyup', inputchecker);
 searchbutton.addEventListener('click', searchClick);
 searchbutton.addEventListener('mouseover', inputchecker);
 searchbutton.addEventListener('mouseleave', searchbarUnfocus);
