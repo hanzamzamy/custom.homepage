@@ -3,58 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page - Waterfox</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="src/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="src/asset/main.min.css"/>
 </head>
 <body>
     <div class="container">
-        <div class="row d-flex justify-content-center">
+        <div class="row justify-content-center">
             <div class="col-md-9">
                 <div class="p-4 mt-3">
-                    <h3 class="mt-5 text-center text-white">Welcome</h3>
+                    <h1 class="fw-bolder mt-5 text-center text-white">Welcome</h1>
                     <h6 id="subtittle" class="text-center">Click on any card for quick access, or
                         <br>Input website URL below.
                     </h6>
-                    <div class="d-flex justify-content-center px-5">
+                    <div class="d-flex justify-content-center px-xl-4">
                         <div class="search">
                             <input id="sinput" type="text" class="search-input" placeholder="Type URL here" name="">
                             <a id="sbutton" href="#" class="search-icon">
-                                <img src="src/icons/globe2.svg"/>
+                                <img src="src/icons/globe2.svg" alt="Enter"/>
                             </a>
                         </div>
                     </div>
                     <div class="row mt-4 mb-4 g-1 px-4 justify-content-center">
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/google.svg" width="64" onclick="urlopen('https://www.google.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Google</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/google.svg" width="64" onclick="urlopen('https://www.google.com')" alt="Google">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/bing.svg" width="64" onclick="urlopen('https://www.bing.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Bing</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/bing.svg" width="64" onclick="urlopen('https://www.bing.com')" alt="Bing">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/duckduckgo.svg" width="64" onclick="urlopen('https://www.duckduckgo.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">DuckDuckGo</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/duckduckgo.svg" width="64" onclick="urlopen('https://www.duckduckgo.com')" alt="DuckDuckGo">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/wikimedia.svg" width="64" onclick="urlopen('https://www.wikimedia.org')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Wikimeda</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/wikimedia.svg" width="64" onclick="urlopen('https://www.wikimedia.org')" alt="Wikimedia">
                             </div>
                         </div>
                     </div>
@@ -62,78 +50,51 @@
                     <div class="row mt-4 g-1 px-4 justify-content-center">
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/edmodo.svg" width="64" onclick="urlopen('https://www.edmodo.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Edmodo</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/edmodo.svg" width="64" onclick="urlopen('https://www.edmodo.com')" alt="Edmodo">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/whatsapp.svg" width="64" onclick="urlopen('https://web.whatsapp.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Whatsapp</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/whatsapp.svg" width="64" onclick="urlopen('https://web.whatsapp.com')" alt="Whatsapp Web">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/telegram.svg" width="64" onclick="urlopen('https://web.telegram.org')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Telegram</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/telegram.svg" width="64" onclick="urlopen('https://web.telegram.org')" alt="Telegram Web">
                             </div>
                         </div>
                     </div>
                     <div class="row mt-4 g-1 px-4 justify-content-center">
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/warstek.png" width="64" onclick="urlopen('https://www.warstek.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Warstek</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/warstek.png" width="64" onclick="urlopen('https://www.warstek.com')" alt="Warstek">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/scholar.svg" width="64" onclick="urlopen('https://scholar.google.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Google Scholar</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/scholar.svg" width="64" onclick="urlopen('https://scholar.google.com')" alt="Google Sholar">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/core.svg" width="64" onclick="urlopen('https://www.core.ac.uk')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">CORE</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/core.svg" width="64" onclick="urlopen('https://www.core.ac.uk')" alt="CORE">
                             </div>
                         </div>
                     </div>
                     <div class="row mt-4 g-1 px-4 justify-content-center">
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/stackoverflow.svg" width="64" onclick="urlopen('https://www.stackoverflow.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Stack Overflow</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/stackoverflow.svg" width="64" onclick="urlopen('https://www.stackoverflow.com')" alt="Stack Overflow">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/github.png" width="64" onclick="urlopen('https://www.github.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">GitHub</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/github.png" width="64" onclick="urlopen('https://www.github.com')" alt="GitHub">
                             </div>
                         </div>
                         <div class="col-md">
                             <div class="card p-3 d-flex flex-column align-items-center">
-                                <img class="card-inner m-3" src="src/logo/colab.ico" width="64" onclick="urlopen('https://colab.research.google.com')">
-                                <div class="mt-3 text-center mg-text">
-                                    <span class="mg-text">Google Colab</span>
-                                </div>
+                                <img class="card-inner m-3" src="src/logo/colab.ico" width="64" onclick="urlopen('https://colab.research.google.com')" alt="Google Colab">
                             </div>
                         </div>
                         </div>

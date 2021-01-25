@@ -84,16 +84,6 @@ a:link {
     filter: grayscale(0);
 }
 
-.mg-text span {
-    font-size: 12px;
-    color: white;
-}
-
-.mg-text {
-    line-height: 14px;
-    color: white;
-}
-
 #subtittle {
     color: #b2b2bb;
 }
